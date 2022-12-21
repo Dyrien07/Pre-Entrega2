@@ -22,4 +22,4 @@ const ProductosSchema = new mongoose.Schema({
     }
 
 })
- export const modeloProductos = mongoose.model(productosCollection,ProductosSchema)
+  export const modeloProductos= mongoose.model(productosCollection,ProductosSchema)
