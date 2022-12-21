@@ -7,6 +7,21 @@ const mongoURL = "mongodb://127.0.0.1/ecommers"
 
 mongoose.connect(mongoURL)
 
-const CRUD = async()=>{
+const addProduct = async()=>{
+mongoose.modeloProducto
+};
 
-}
+const deleteProduct = async()=>{
+
+};
+const updateProduct = async()=>{
+
+};
+
+const getProduct = async()=>{
+
+};
+
+const getAllProduct = async()=>{
+
+};
