@@ -44,7 +44,5 @@ export const deleteCarrito = async() =>{
 
 };
 export const deleteProductoCarrito = async() =>{
-    
+
 };
-
-
