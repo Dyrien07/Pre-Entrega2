@@ -16,7 +16,7 @@ mongoose.connect(
   }
 );
 
-export const addProduct = async (unProducto) => {
+export const save = async (unProducto) => {
   try {
     await modeloProductos.insert(unProducto);
   } catch (err) {
@@ -31,7 +31,7 @@ export const deleteProduct = async (unProducto) => {
     console.log(err.message);
   }
 };
-export const updateProduct = async (unProducto) => {
+export const updateProduc = async (unProducto) => {
   try {
     await modeloProductos.update(unProducto);
   } catch (err) {
@@ -39,7 +39,7 @@ export const updateProduct = async (unProducto) => {
   }
 };
 
-export const getProduct = async (ID) => {
+export const getById = async (ID) => {
     try {
       const unProducto =   await modeloProductos.findOne({id: ID});
         return unProducto

@@ -15,7 +15,7 @@ console.log("Coneccion realizada");
 
 
 
-export const getall = async () => {
+export const getAll = async () => {
     const db = firebase.firestore();
     const query = db.collection("productos");
     try{
